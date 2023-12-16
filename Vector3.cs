@@ -1,10 +1,8 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace VirtualDesktop.FaceTracking
-{
+namespace VirtualDesktop.FaceTracking {
     [StructLayout(LayoutKind.Sequential)]
-    public struct Vector3
-    {
+    public struct Vector3 {
         #region Fields
         public float X;
         public float Y;

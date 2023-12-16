@@ -1,7 +1,5 @@
-﻿namespace VirtualDesktop.FaceTracking
-{
-    public enum Expressions
-    {
+﻿namespace VirtualDesktop.FaceTracking {
+    public enum Expressions {
         BrowLowererL = 0,
         BrowLowererR = 1,
         CheekPuffL = 2,

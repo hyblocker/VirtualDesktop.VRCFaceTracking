@@ -1,10 +1,8 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace VirtualDesktop.FaceTracking
-{
+namespace VirtualDesktop.FaceTracking {
     [StructLayout(LayoutKind.Sequential)]
-    public unsafe struct FaceState
-    {
+    public unsafe struct FaceState {
         #region Constants
         public const int ExpressionCount = 63;
         public const int ConfidenceCount = 2;
